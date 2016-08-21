@@ -5,8 +5,9 @@ Hi Nicklas,
 Here is my answer to your waypoints challenge. Its in c++ and you would need to compile it to test it.
 To compile you will need to configure this manually, as it is the visual studio project template. 
 The paths for includes and linking are hardcoded. 
-This is visual studio 2013 (v120), and you will need boost date-time as the only external dependency.
+This is visual studio 2013 (v120), and you will need boost date-time as the only externally compiled dependency.
 http://www.boost.org/doc/libs/1_61_0/doc/html/date_time.html
+You will need to have headers for boost and rapidJSON https://github.com/miloyip/rapidjson
 Let me know if you have trouble setting it up. I can also just send you precompiled if you like.
 
 Code-Descriptive Notes:
