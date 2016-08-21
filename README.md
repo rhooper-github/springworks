@@ -4,7 +4,7 @@ Hi Nicklas,
 
 Here is my answer to your waypoints challenge. Its in c++ and you would need to compile it to test it.
 I changed it from visual studio to use CMake. You will need to do a `brew install cmake` first. 
-Dependencies are rapidJSON (linked git submodule, just add --recursive to git clone), boost (if you dont have in standard place, best do a `brew install boost` or a `sudo port install boost`)
+Dependencies are rapidJSON (linked git submodule, just add --recursive to git clone), boost (if you dont have in standard place, best do a `brew install boost` or a `sudo port install boost`). If you have an older boost version installed (< 1.59.0), you can change the CMakeLists.txt file to this version if you want, it will prbably still work. I tested compiling on mac with mavericks and ubuntu 14.
 Let me know if you have trouble setting it up. I can also just send you precompiled if you like.
 
 Code-Descriptive Notes:
